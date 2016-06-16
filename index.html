@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="author" content="Bruno Aguiar, José Moreira, João Teixeira, Bruno Castro">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Prenúncia de Palavras">
+<meta name="theme-color" content="#dddddd"> <!-- adiciona COR à BARRA DE PESQUISA dos browsers (essencialmente dos browsers mobile) e muda a COR da STATUS BAR (ex: status bar do android, versão >= 5.0) -->
+
+<link rel = "stylesheet" href = "bootstrap.css"/>
+<script type = "text/javascript" src = "bootstrap.js"> </script>
+<script type = "text/javascript" src = "jquery.js"> </script>
+
+<style>
+  #imaginary_container{
+    margin-top:20%;
+}
+.stylish-input-group .input-group-addon{
+    background: white !important;
+}
+.stylish-input-group .form-control{
+	border-right:0;
+	box-shadow:0 0 0;
+	border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- barra de pesquisa das palavras -->
+
+<div class="container">
+	<div class="row">
+        <div class="col-sm-6 col-sm-offset-3">
+            <div id="imaginary_container">
+                <div class="input-group stylish-input-group">
+                    <input type="text" class="form-control"  placeholder="Procurar palavra" >
+                    <span class="input-group-addon">
+                        <button type="submit">
+                            <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                    </span>
+                </div>
+            </div>
+        </div>
+	</div>
+</div>
+
+
+<br><br><br><br><br><br><br><br><br><br><br>
+
+
+<!-- inserir silabas -->
+
+<div class="col-xs-2">
+  <label for="ex1">Sílaba 1</label>
+  <input class="form-control" id="ex1" type="text">
+</div>
+<div class="col-xs-2">
+  <label for="ex1">Sílaba 2</label>
+  <input class="form-control" id="ex1" type="text">
+</div>
+<div class="col-xs-2">
+  <label for="ex1">Sílaba 3</label>
+  <input class="form-control" id="ex1" type="text">
+</div>
+<div class="col-xs-2">
+  <label for="ex1">Sílaba 4</label>
+  <input class="form-control" id="ex1" type="text">
+</div>
+<div class="col-xs-2">
+  <label for="ex1">Sílaba 5</label>
+  <input class="form-control" id="ex1" type="text">
+</div>
+<div class="col-xs-2">
+  <label for="ex1">Sílaba 6</label>
+  <input class="form-control" id="ex1" type="text">
+</div>
+
+</body>
+</html>
